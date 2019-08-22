@@ -1,0 +1,82 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 252, 184);
+    height: 300px;
+}
+
+#clock span {
+    font-size: 100px;
+    font-family: Segment7Standard;
+}
+
+
+/* button */
+
+#button {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 100px;
+    background-color: rgb(204, 250, 134);
+}
+
+#button #start {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: 1px solid rgb(6, 201, 6);
+    box-shadow: 0px 10px rgb(6, 201, 6);
+    background-color: rgb(65, 230, 65);
+    color: white;
+    outline: 0px;
+    cursor: pointer;
+}
+
+#button #start:active,
+#button #reset:active,
+#button #stop:active {
+    box-shadow: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#button #stop {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: 1px solid rgb(202, 28, 57);
+    box-shadow: 0px 10px rgb(202, 28, 57);
+    background-color: rgb(252, 36, 72);
+    color: white;
+    outline: 0px;
+    cursor: pointer;
+}
+
+#button #reset {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: 1px solid rgb(42, 42, 168);
+    box-shadow: 0px 10px rgb(42, 42, 168);
+    background-color: rgb(76, 76, 250);
+    color: white;
+    outline: 0px;
+    cursor: pointer;
+}
+
+
+/* button */
