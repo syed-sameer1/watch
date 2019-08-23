@@ -1,3 +1,5 @@
+let sound = new Audio("click.mp3");
+
 let startTime;
 
 let tInterval;
@@ -17,6 +19,8 @@ let running = 0;
 
 function startTimer() {
 
+    sound.play();
+
     if (running == 0) {
 
         startTime = new Date().getTime();
@@ -29,6 +33,7 @@ function startTimer() {
 
 function stopTimer() {
 
+    sound.play();
     clearInterval(tInterval);
     saveTime = difference;
     running = 0;
@@ -37,6 +42,7 @@ function stopTimer() {
 
 function reset() {
 
+    sound.play();
     clearInterval(tInterval);
     saveTime = 0;
     difference = 0;
